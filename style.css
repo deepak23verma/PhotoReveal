@@ -5,7 +5,7 @@ body {
 
 #container {
   width: 960px;
-  margin: 50px;
+  margin: 100px auto 0px auto;
   overflow: auto;
 }
 
@@ -13,8 +13,34 @@ section {
   clear: both;
   width: 100%;
   overflow: auto;
+  border: 1px dotted black;
 }
 
 article {
   float: left;
+}
+
+.picture {
+  margin: 0px 10px;
+  width: 460px;
+  height: 635px;
+}
+
+#photo1 {
+  background-image: url("img_0061_reveal.jpg");
+  background-repeat: no-repeat;
+}
+
+#photo2 {
+  background-image: url("IMG_0225_reveal.jpg");
+  background-repeat: no-repeat;
+}
+
+.block {
+  background-color: white;
+  width: 10px;
+  height: 5px;
+  float: left;
+  margin: 0px;
+  background-color: gray;
 }
