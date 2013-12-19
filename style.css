@@ -1,7 +1,9 @@
 body {
   text-align: center;
   margin: 0px;
-  background-image: url("dark_brown_canvas_background.jpg");
+  background-image: url("Cartoon-Wallpaper.jpg");
+  background-position: 50% -10%;
+  background-color: rgb(160, 215, 241);
   background-repeat: no-repeat;
   width: 100%;
 }
@@ -16,30 +18,37 @@ section {
   clear: both;
   width: 100%;
   overflow: auto;
-  border: 1px dotted black;
 }
 
-.picture-column2 {
-  width: 450px;
-  height: 620px;
-  border: 5px solid black;
+.picture-column3 {
+  width: 310px;
+  height: 330px;
+  border: 1px solid black;
 }
 
 #photo1 {
-  background-image: url("img_0061_reveal.jpg");
+  background-image: url("diego.jpg");
   background-repeat: no-repeat;
   float: left;
 }
 
 #photo2 {
-  background-image: url("IMG_0225_reveal.jpg");
+  background-image: url("IMG_3456_small.jpg");
   background-repeat: no-repeat;
-  float: right;
+  float: left;
+  margin-left: 12px;
+}
+
+#photo3 {
+  background-image: url("bob_builder.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 12px;
 }
 
 .block {
-  width: 30px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   float: left;
   margin: 0px;
   background-image: url("brown_canvas_seamless.jpg");
